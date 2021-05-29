@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    margin: auto;
+    background-color: #F2F2F2;
+
+    
+}
+
+.hero-wrapper {
+    background: linear-gradient(0deg,rgba(7, 29, 28, 0.77), rgba(7, 29, 28, 0.77)), url(/assets/background-image.jpeg) ;
+    background-size: cover;
+    
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    margin: auto;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    margin: auto;
+
+}
+
+.white-logo {
+    width: 50%;
+    margin: 4em 0 2em 0;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headline {
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+
+.btn-cta {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #75AB54;
+    padding: 1.4rem 0.7rem 1.4rem 0.7rem;
+    width: 70%;
+    border: 0px solid white;
+    border-radius: 5px;
+    margin: 1rem 0 1rem 0;
+    letter-spacing: 0.05rem;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    margin: 1.2rem 0 1.2rem 0;
+    color: #093433;
+    text-align: left;
+    align-self: flex-start;
+
+}
+
+.paragraph {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #4F6463;
+    line-height: 2rem;
+    letter-spacing: 0.05rem;
+    padding-right: 3rem;
+}
+
+.banks-title {
+    font-size: 1.8rem;
+}
+
+.banks-logo-container {
+    display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.bank-logo {
+    width: 30%;
+    height: 30%;
+
+}
+
+.service-grid {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.service-image {
+    width: 100%;
+    height: 100%;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.service-subtitle {
+    text-align: center;
+    color: #187D7B;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.team {
+    padding-top: 4.5rem;
+    padding-bottom: 8rem;
+    margin-top: 3.5rem;
+    background: linear-gradient(89.86deg, #093433 26.72%, rgba(9, 52, 51, 0.39) 99.87%), url(/assets/foto-junior.jpeg);
+    background-position: center;
+    background-size: 250%;
+}
+
+.team-title, .why-title {
+    color: #fff ;
+    margin-top: 3.5rem;
+}
+
+.team-paragraph, .why-paragraph {
+    color: #DFDFDF;
+}
+
+.final-flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-logo {
+    width: 80%;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.where-paragraph, .address-paragraph {
+    padding-right: 6rem;
+}
+
+.visit-cta {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+    color: #4F6463;
+    margin-bottom: 10rem;
+}
