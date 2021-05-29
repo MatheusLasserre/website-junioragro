@@ -34,6 +34,7 @@ body {
     justify-content: space-between;
     width: 280px;
     margin: auto;
+    margin-bottom: -5rem;
 
 }
 
@@ -48,8 +49,12 @@ body {
 }
 
 .white-logo {
-    width: 50%;
+    width: 62%;
     margin: 4em 0 2em 0;
+}
+
+.vertical-line {
+    display: none;
 }
 
 .hero-text {
@@ -69,7 +74,6 @@ body {
     margin-bottom: 3rem;
 }
 
-
 .btn-cta {
     color: #fff;
     font-weight: 700;
@@ -83,6 +87,28 @@ body {
     border-radius: 5px;
     margin: 1rem 0 1rem 0;
     letter-spacing: 0.05rem;
+    z-index: 3;
+}
+
+.custom-shape-divider-bottom-1622258592 {
+    position: relative;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1622258592 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 60px;
+}
+
+.custom-shape-divider-bottom-1622258592 .shape-fill {
+    fill: #f2f2f2;
 }
 
 .title {
@@ -97,6 +123,10 @@ body {
 
 }
 
+.about-title {
+    margin-top: 4rem;
+}
+
 .paragraph {
     font-size: 1.4rem;
     font-weight: 400;
@@ -108,6 +138,9 @@ body {
 
 .banks-title {
     font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    
 }
 
 .banks-logo-container {
@@ -116,25 +149,43 @@ body {
     flex-grow: 1;
     flex-direction: row;
     align-items: center;
+    margin-top: 0;
 
 }
+
+
 
 .bank-logo {
     width: 30%;
     height: 30%;
+    margin: -0.8rem 0.5rem 0 0.5rem;
+
 
 }
 
-.service-grid {
+.fade-line {
+    display: block;
+    width: 100%;
+    height: 0.2rem;
+    background: radial-gradient(rgba(9, 52, 51, 0.5) 1%, rgba(0, 0, 0, 0) 70%);
+    margin: 2rem 0 3.5rem 0;
+}
+
+.services-grid {
     display: flex;
     flex-direction: column;
     flex-shrink: 1;
     flex-grow: 1;
+    margin-bottom: 3rem;
+}
+
+.services-paragraph {
+    padding-right: 0;
 }
 
 .service-image {
-    width: 100%;
-    height: 100%;
+    width: 280px;
+    height: 230px;
     margin: 1.5rem 0 1.5rem 0;
 }
 
@@ -172,11 +223,12 @@ body {
 
 .green-logo {
     width: 80%;
-    margin: 2rem 0rem 2rem 0rem;
+    margin: 4rem 0rem 2rem 0rem;
 }
 
 .where-paragraph, .address-paragraph {
     padding-right: 6rem;
+    margin-bottom: 3rem;
 }
 
 .visit-cta {
