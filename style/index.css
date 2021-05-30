@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
 * {
     font-family: 'Ubuntu', sans-serif;
@@ -306,6 +306,29 @@ body {
     margin-bottom: 10rem;
 }
 
+#copyright {
+    background-color: black;
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy-text {
+    text-align: center;
+    font-size: 0.9rem;
+    color: white;
+    margin: auto;
+    font-weight: 300;
+
+}
+
+.copy-text a {
+    text-decoration: none;
+    color: white;
+}
+
 @media only screen and (min-width: 768px) {
     
     .hero {
@@ -420,6 +443,15 @@ body {
     #final-btn {
         width: 40%;
         align-self: center;
+    }
+
+    .copy-text {
+        text-align: center;
+        font-size: 1.2rem;
+        color: white;
+        margin: auto;
+        font-weight: 300;
+
     }
 
 
