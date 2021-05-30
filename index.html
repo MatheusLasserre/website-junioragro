@@ -15,7 +15,7 @@
             <div class="hero-text">
                 <h1 class="headline">Uma empresa focada em entregar o nosso melhor para os produtores rurais, 
                     com o objetivo de exponencializar seus negócios por meio de instituições bancárias.</h1>
-                <button class="btn-cta">Atendimento por WhatsApp</button>
+                <button class="btn-cta" onclick="agendamento()"><span class="wpp" ></span>Atendimento por WhatsApp</button>
             </div>
         </div>
         <div class="custom-shape-divider-bottom-1622258592">
@@ -48,36 +48,36 @@
              efetivar o trabalho solicitado, dentre os trabalhos desenvolvidos destacamos: </p>
              <div class="services-grid">
                 <div class="service-item">
-                    <img src="/assets/investimento.jpeg" class="service-image" alt="">
+                    <div class="service-image" id="investimento"></div>
                     <p class="service-subtitle">INVESTIMENTO AGROPECUÁRIO</p>
                 </div>                 
                 <div class="service-item">
-                    <img src="/assets/topografia.jpg" class="service-image" alt="">
+                    <div class="service-image" id="topografia"></div>
                     <p class="service-subtitle">TOPOGRAFIA CONVENCIONAL</p>
                 </div>                
                  <div class="service-item">
-                    <img src="/assets/cadastro.jpg" class="service-image" alt="">
+                    <div class="service-image" id="cadastro"></div>
                     <p class="service-subtitle">CADASTRO AMBIENTAL RURAL</p>
                 </div>                 
                 <div class="service-item">
-                    <img src="/assets/certificado.jpg" class="service-image" alt="">
+                    <div class="service-image" id="certificado"></div>
                     <p class="service-subtitle">CERTIFICADO DE CADASTRO DE IMÓVEL RURAL</p>
                 </div>                 
                 <div class="service-item">
-                    <img src="/assets/imposto.jpg" class="service-image" alt="">
+                    <div class="service-image" id="imposto"></div>
                     <p class="service-subtitle">IMPOSTO TERRITORIAL RURAL</p>
                 </div>                 
                 <div class="service-item">
-                    <img src="/assets/outorga.jpg" class="service-image" alt="">
+                    <div class="service-image" id="outorga"></div>
                     <p class="service-subtitle">OUTORGA D'ÁGUA</p>
                 </div>
              </div>
-             <button class="btn-cta">Atendimento por WhatsApp</button>
+             <button id="grid-btn" class="btn-cta" onclick="agendamento()"><span class="wpp"></span>Atendimento por WhatsApp</button>
 
     </section>
 
     <section class="team">
-        <div class="container">
+        <div class="container team-container">
             <h5 class="title team-title">NOSSA EQUIPE</h5>
             <p class="paragraph team-paragraph">Nosso time é formado por profissionais especializados, responsáveis pelo entendimento do processo e na definição de estratégias para execução do trabalho com maestria, tornando o processo burocrático muito mais leve de dando maior conforto ao cliente, graças a estarmos no mercado a quase meia década.
             </p>
@@ -102,10 +102,15 @@
             </div>
         </div>
         <div class="container center-section">
-            <button class="btn-cta">Atendimento por WhatsApp</button>
+            <button id="final-btn" class="btn-cta" onclick="agendamento()"><span class="wpp"></span>Atendimento por WhatsApp</button>
             <p class="visit-cta">Ou faça-nos uma visita!</p>
         </div>
     </section>
+    <script>
+        function agendamento() {
+            window.open('http://www.w3schools.com', '_blank')
+        }
+    </script>
     
 </body>
 </html>

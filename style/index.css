@@ -31,6 +31,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-shrink: 1;
+    flex-grow: 1;
     justify-content: space-between;
     width: 280px;
     margin: auto;
@@ -81,14 +83,26 @@ body {
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
     background-color: #75AB54;
-    padding: 1.4rem 0.7rem 1.4rem 0.7rem;
-    width: 70%;
+    padding: 1.4rem 0.7rem 1.2rem 0.3rem;
+    width: 80%;
     border: 0px solid white;
     border-radius: 5px;
     margin: 1rem 0 1rem 0;
     letter-spacing: 0.05rem;
     z-index: 3;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
+
+.wpp {
+    background: url(/assets/whatsapp.svg) no-repeat;
+    width: 1.3rem;
+    height: 1.3rem;
+    float: left;
+    margin-left: 1.7rem;
+    margin-bottom: 0rem;
+}
+
 
 .custom-shape-divider-bottom-1622258592 {
     position: relative;
@@ -189,6 +203,59 @@ body {
     margin: 1.5rem 0 1.5rem 0;
 }
 
+#investimento {
+    background-image: url(/assets/investimento.jpeg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+#topografia {
+    background-image: url(/assets/topografia.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+#cadastro {
+    background-image: url(/assets/cadastro.jpg);
+    background-size: 182%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+#certificado {
+    background-image: url(/assets/certificado.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#imposto {
+    background-image: url(/assets/imposto.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+#outorga {
+    background-image: url(/assets/outorga.jpeg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
 .service-subtitle {
     text-align: center;
     color: #187D7B;
@@ -237,4 +304,224 @@ body {
     font-style: italic;
     color: #4F6463;
     margin-bottom: 10rem;
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .hero {
+        flex-direction: row;
+        width: 620px;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+
+    .white-logo {
+        width: 50%;
+        padding:1rem 7rem;
+        margin-right: 3rem;
+    }
+
+    .hero-text {
+        align-items: flex-start;
+        margin-left: 3rem;
+    }
+
+    .headline {
+        text-align: left;
+    }
+
+    .btn-cta {
+        width: 100%;
+    }
+
+    .wpp {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .container {
+        width: 620px;
+    }
+    .custom-shape-divider-bottom-1622258592 svg {
+        height: 140px;
+    }
+
+    .about {
+        align-items: center;
+        justify-content: center;
+        margin-top: -7rem;
+        width: 620px;
+    }
+
+    .about-title {
+        text-align: center;
+        align-self: center;
+        z-index: 5;
+        font-size: 3rem;
+    }
+
+    .sobre-paragraph {
+        text-align: center;
+        margin: 0 7rem;
+    }
+    .banks-title {
+        text-align: center;
+        align-self: center;
+        font-size: 2.5rem;
+
+    }
+
+    .banks-logo-container {
+        width: 360px;
+    }
+
+    .services-grid {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .service-item {
+        margin: 1rem;
+    }
+
+    #grid-btn {
+        width: 40%;
+        margin-top: -1rem;
+    }
+
+    .team-container {
+        padding-right: 32rem;
+    }
+
+    .team {
+        background-position: -200px -480px;
+        background-size: 170%;
+    }
+
+    .final-flex-container {
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+
+    .green-logo {
+        width: 50%;
+        padding-right: 7rem;
+    }
+
+    .where-paragraph, .address-paragraph {
+        padding-right: 6rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .final-text-wrap {
+        margin-top: 2rem;
+    }
+
+    #final-btn {
+        width: 40%;
+        align-self: center;
+    }
+
+
+}
+
+@media only screen and (min-width: 1280px) {
+
+    .hero {
+        width: 970px;
+    }
+
+    .headline {
+        font-size: 2.3rem;
+        line-height: 3.5rem;
+    }
+
+    .btn-cta {
+        font-size: 1.6rem;
+        padding-left: 2rem;
+        padding-right: 3rem;
+        padding-top: 1.4rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .wpp {
+        width: 2.5rem;
+        height: 2.5rem;
+
+    }
+
+    .hero-text {
+        padding: 0 3rem;
+    }
+
+    .container {
+        width: 970px;
+    }
+    
+    .title {
+        font-size: 4.9rem;
+        line-height: 3.5rem;
+        margin-bottom: 2rem;
+        letter-spacing: 0.07rem;
+    }
+
+    .paragraph {
+        font-size: 1.8rem;
+        line-height: 3.5rem;
+    }
+
+    .about {
+        width:570px ;
+    }
+
+    .sobre-paragraph {
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .banks-title {
+        font-size: 3.8rem;
+    }
+
+    .banks-logo-container {
+        width: 570px;
+    }
+
+    .services-paragraph {
+        padding-right: 32rem;
+    }
+
+    .service-item {
+        margin: 0;
+        
+    }
+
+    .services-grid {
+        row-gap: 2rem;
+        column-gap: 5rem;
+    }
+
+    #grid-btn {
+        margin-top: 2rem;
+    }
+
+    .team-container {
+        padding-right: 45rem;
+    }
+
+   .team-paragraph, .why-paragraph {
+       padding-right: 15rem;
+   }
+
+   .team {
+       background-position: 0px -700px;
+       background-size: 110%;
+   }
+
+   .green-logo {
+       width: 40%;
+       padding-right: 4rem;
+   }
+
 }
